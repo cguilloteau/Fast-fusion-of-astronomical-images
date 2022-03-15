@@ -15,7 +15,7 @@ We provide a fast implementation by solving the problem in the frequency domain 
 - acp_v2.py : This code implents PCA performed on the HS image for spectral dimension reduction.
 - tools : Tools for data fusion.
 
-## How to 
+## Guidelines
 
 Please refer to [2] for the following notations.
 
