@@ -7,13 +7,13 @@ We provide a fast implementation by solving the problem in the frequency domain 
 
 ## Files 
 
-- CONSTANTS.py : This code is used to store constants and paths for data fusion.
-- main.py : Run this code to test fusion
-- fusion.py : This code implents the optimization process for fusion of infrared astronomical hyperspectral and multispectral images as described in [1,2].
-- sparse.py : This code computes the sparse matrix A and the vector b used in the fast fusion precedure described in [2].
-- sparse_preprocess.py : This code implents the preprocessing of the data as described in [1,2].
-- errors.py : This code computes and saves fusion performance measures.
-- acp_v2.py : This code implents PCA performed on the HS image for spectral dimension reduction.
+- CONSTANTS.py : This module is used to store constants and paths for data fusion.
+- main.py : Run this module to test fusion
+- fusion.py : This module implents the optimization process for fusion of infrared astronomical hyperspectral and multispectral images as described in [1,2].
+- sparse.py : This module computes the sparse matrix A and the vector b used in the fast fusion precedure described in [2].
+- sparse_preprocess.py : This module implents the preprocessing of the data as described in [1,2].
+- errors.py : This module computes and saves fusion performance measures.
+- acp_v2.py : This module implents PCA performed on the HS image for spectral dimension reduction.
 - tools : Tools for data fusion.
 
 - produce_HS_MS.py : This code implents forward models of the NIRCam imager and the NIRSpec IFU embedded in the JWST as described in [1].
