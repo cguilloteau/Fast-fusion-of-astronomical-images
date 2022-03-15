@@ -378,7 +378,7 @@ def main(file_data='Data/', file_save='Data/', snr=50, sigma=0):
     print('Saving HS and MS images ...')
     # Save high snr images
     hdu = fits.PrimaryHDU(Yh_highsnr)
-    hdu.writeto(file_save+'Yh_highsnr.fits', overwrite=True)
+    hdu.writeto(HS_IM, overwrite=True)
     hdu = fits.PrimaryHDU(Ym_highsnr)
-    hdu.writeto(file_save+'Ym_highsnr.fits', overwrite=True)
+    hdu.writeto(MS_IM, overwrite=True)
     ######
