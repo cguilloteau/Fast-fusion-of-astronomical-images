@@ -162,7 +162,7 @@ def fusion_reginf(lacp=4, MS_IM=MS_IM, HS_IM=HS_IM):
     Am, Ah, bm, bh, cm, ch, z, D, Wd = get_linearsyst_reginf(lacp, MS_IM, HS_IM)
     # Get the ground truth and spectra matrix
     v, mean = get_v_mean()
-    v_true, z_true = get_vz_true()
+    # v_true, z_true = get_vz_true()
     # For each reg. parameter, solve the problem
 
     ####### Control procedure ####### 
@@ -179,7 +179,7 @@ def fusion_reginf(lacp=4, MS_IM=MS_IM, HS_IM=HS_IM):
         fname = SAVE2+'_full_'+str(mu1)
         save(zf_, fname)
         # Compute and save errors
-        errors.compute_errors(v_true, v, z_true, zf_, mean, fname)
+        # errors.compute_errors(v_true, v, z_true, zf_, mean, fname)
         calc_mu_auto(Am, Ah, bm, bh, cm, ch, zf, fname)
     t2 = time()
     print('******************************************')
