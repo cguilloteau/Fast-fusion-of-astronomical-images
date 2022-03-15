@@ -7,13 +7,13 @@ We provide a fast implementation by solving the problem in the frequency domain 
 
 ## Files 
 
-CONSTANTS.py : This code is used to store constants and paths for data fusion.
-main.py : Run this code to test fusion
-fusion.py : This code implents the optimization process for fusion of infrared astronomical hyperspectral and multispectral images as described in [1,2].
-sparse.py : This code computes the sparse matrix A and the vector b used in the fast fusion precedure described in [2].
-sparse_preprocess.py : This code implents the preprocessing of the data as described in [1,2].
-acp_v2.py : This code implents PCA performed on the HS image for spectral dimension reduction.
-tools : Tools for data fusion.
+- CONSTANTS.py : This code is used to store constants and paths for data fusion.
+- main.py : Run this code to test fusion
+- fusion.py : This code implents the optimization process for fusion of infrared astronomical hyperspectral and multispectral images as described in [1,2].
+- sparse.py : This code computes the sparse matrix A and the vector b used in the fast fusion precedure described in [2].
+- sparse_preprocess.py : This code implents the preprocessing of the data as described in [1,2].
+- acp_v2.py : This code implents PCA performed on the HS image for spectral dimension reduction.
+- tools : Tools for data fusion.
 
 ## How to 
 
