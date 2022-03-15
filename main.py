@@ -13,7 +13,7 @@ Ref 2 : C. Guilloteau, T. Oberlin, O. Berné, É. Habart, and N. Dobigeon
 "Hyperspectral and Multispectral Image Fusion Under Spectrally Varying Spatial Blurs – Application to High Dimensional Infrared Astronomical Imaging"
 IEEE Transactions on Computatonal Imaging, vol.6, Sept. 2020.
 
-Modiify paths and constants in the 'CONSTANTS.py' file, if necessary.
+Modify paths and constants in the 'CONSTANTS.py' file, if necessary.
 Run this code to test fusion.
 """
 
@@ -31,8 +31,7 @@ warnings.filterwarnings('ignore')
 
 
 def main(args):
-    lacp = 4
-    fusion.fusion_reginf(lacp, MS_IM, HS_IM)
+    return fusion.fusion_reginf(lsub, MS_IM, HS_IM)
 
 
 def choose_subspace(args):

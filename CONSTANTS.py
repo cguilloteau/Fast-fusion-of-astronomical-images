@@ -36,7 +36,10 @@ HS_IM = DATA+'Yh_highsnr_hst.fits'
 # MS_IM = SAVE+'Ym_highsnr_psfsig-1.fits'
 # HS_IM = SAVE+'Yh_highsnr_psfsig-1.fits'
 
-
+"""
+Subspace dimension
+"""
+lsub = 4
 
 """
 Downsampling factor (integer)
