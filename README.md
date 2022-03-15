@@ -30,6 +30,8 @@ Name spatial and spectral degradation operators fits files :
 
 Modify paths and constants in CONSTANTS.py, if necessary. 
 
+Compute HS and MS images, if necessary, or store them in the folder of your choice.
+
 Run 'main.py' to test fusion.
 
 ## References
