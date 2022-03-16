@@ -87,7 +87,7 @@ def cg(lacp, mu1, A, D, Wd, b, c, z, save_it=False):
         stop = (obj[-2]-obj[-1])/obj[-2]
         if save_it:
             hdu = fits.PrimaryHDU(postprocess(z, lacp))
-            hdu.writeto('DoubleReg/z_'+str(nb_it+1)+'.fits')
+            hdu.writeto(SAVE+'z_'+str(nb_it+1)+'.fits')
 
     t2 = time()
     print('Cg Computation time : '+str(np.round((t2-t1)/60))+'min '+str(np.round((t2-t1)%60))+'s.')
